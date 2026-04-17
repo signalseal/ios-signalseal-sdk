@@ -32,7 +32,7 @@ let package = Package(
         .binaryTarget(
             name: "SignalSealAttributionSDK",
             url: "https://github.com/signalseal/ios-sdk/releases/download/v0.0.1/SignalSealAttributionSDK.xcframework.zip",
-            checksum: "9985f37eb0811f47a8e484b7bf58d1f01541eb90a659c18613ee61da4ec5848c"
+            checksum: "a5b33a21e735102f2ee770382137be8169e291fa80e8ca4e8eeec2ef12a38859"
         ),
         // Thin public target that re-exports the private module so apps can
         // just write `import SignalSealSDK`. No logic lives here.
