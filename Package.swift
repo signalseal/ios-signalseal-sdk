@@ -4,7 +4,7 @@ import PackageDescription
 // SignalSeal iOS SDK — PUBLIC package. This is what app developers add to
 // their Xcode projects:
 //
-//     .package(url: "https://github.com/signalseal/ios-signalseal-sdk", from: "0.0.3")
+//     .package(url: "https://github.com/signalseal/ios-signalseal-sdk", from: "0.0.4")
 //
 // The manifest pulls down a precompiled `SignalSealAttributionSDK.xcframework`
 // as a binary target, then re-exports its public API through the
@@ -31,8 +31,8 @@ let package = Package(
         // Re-run that script + replace the checksum on every release.
         .binaryTarget(
             name: "SignalSealAttributionSDK",
-            url: "https://github.com/signalseal/ios-signalseal-sdk/releases/download/v0.0.3/SignalSealAttributionSDK.xcframework.zip",
-            checksum: "e113097ac948f060db5de4e6fe3f90132ac9915875337e97a5d11777e5b284d1"
+            url: "https://github.com/signalseal/ios-signalseal-sdk/releases/download/v0.0.4/SignalSealAttributionSDK.xcframework.zip",
+            checksum: "59b80fc102dd6c06bec9e866595a4d7e320627d4d215e58e8bdbab51d1b8032f"
         ),
         // Thin public target that re-exports the private module so apps can
         // just write `import SignalSealSDK`. No logic lives here.
