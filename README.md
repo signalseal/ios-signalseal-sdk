@@ -17,7 +17,7 @@ Or in `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/signalseal/ios-signalseal-sdk", from: "0.0.3")
+    .package(url: "https://github.com/signalseal/ios-signalseal-sdk", from: "0.0.4")
 ]
 ```
 
