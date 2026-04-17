@@ -8,7 +8,7 @@ via Swift Package Manager.
 Xcode → File → Add Package Dependencies… → paste:
 
 ```
-https://github.com/signalseal/ios-sdk
+https://github.com/signalseal/ios-signalseal-sdk
 ```
 
 …and select the `SignalSealSDK` library product.
@@ -17,7 +17,7 @@ Or in `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/signalseal/ios-sdk", from: "0.0.1")
+    .package(url: "https://github.com/signalseal/ios-signalseal-sdk", from: "0.0.2")
 ]
 ```
 
@@ -44,7 +44,7 @@ If you want background flushing of the event queue, add to Info.plist:
 ```xml
 <key>BGTaskSchedulerPermittedIdentifiers</key>
 <array>
-    <string>dev.signalseal.flush</string>
+    <string>net.signalseal.sdk.flush</string>
 </array>
 ```
 
