@@ -27,7 +27,7 @@ dependencies: [
 import SignalSealSDK
 
 SignalSealAttributionSdk.shared.configure(
-    apiKey: "ak_ios_01J8...",     // from signalseal.dev dashboard
+    apiKey: "ak_ios_01J8...",     // from signalseal.net dashboard
     isDebug: false
 )
 
