@@ -26,12 +26,12 @@ dependencies: [
 ```swift
 import SignalSealSDK
 
-SignalSealAttributionSdk.shared.configure(
+SignalSealSDK.shared.configure(
     apiKey: "ak_ios_01J8...",     // from signalseal.net dashboard
     isDebug: false
 )
 
-SignalSealAttributionSdk.shared.sendEvent(event: .purchase, parameters: [
+SignalSealSDK.shared.sendEvent(event: .purchase, parameters: [
     "revenue": 9.99,
     "currency": "USD"
 ])
