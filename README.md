@@ -37,17 +37,6 @@ SignalSealSDK.shared.sendEvent(event: .purchase, parameters: [
 ])
 ```
 
-## Permissions / Info.plist
-
-If you want background flushing of the event queue, add to Info.plist:
-
-```xml
-<key>BGTaskSchedulerPermittedIdentifiers</key>
-<array>
-    <string>net.signalseal.sdk.flush</string>
-</array>
-```
-
 ## Repo layout
 
 This directory (`ios-signalseal-sdk/`) is the **public** package — thin
